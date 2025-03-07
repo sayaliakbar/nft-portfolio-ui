@@ -1,0 +1,45 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: var(--primary-blue);
+    color: var(--base-white);
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark-blue);
+}
+
+.btn-secondary {
+    background: var(--secondary-dark-gray);
+    color: var(--base-white);
+}
+
+.btn-secondary:hover {
+    background: var(--secondary-navy);
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--text-in-field);
+    border-radius: 5px;
+    background: var(--base-white);
+    color: var(--text-body);
+}
+
+.input:focus {
+    border-color: var(--primary-blue);
+    outline: none;
+}
+
+.input[disabled] {
+    background: var(--text-disabled);
+    cursor: not-allowed;
+}

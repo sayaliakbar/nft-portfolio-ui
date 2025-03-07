@@ -1,0 +1,24 @@
+:root {
+    /* Primary Colors */
+    --primary-blue: #1E50FF;
+    --primary-dark-blue: #081956;
+
+    /* Secondary Colors */
+    --secondary-dark-gray: #0E0E0E;
+    --secondary-navy: #051139;
+
+    /* Base Colors */
+    --base-black: #000;
+    --base-white: #fff;
+
+    /* Text Colors */
+    --text-title: #333333;
+    --text-body: #666666;
+    --text-in-field: #B8B8B8;
+    --text-disabled: #EBEBEB;
+    --text-white: #fff;
+
+    /* Background/Accent Colors */
+    --accent-purple: #AA00FF;
+    --accent-cyan: #5699FF;
+}
