@@ -8,10 +8,18 @@
     color: var(--accent-cyan);
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:950px) {
+
+
     .yorfy__heading h1 {
         font-size: 40px;
         line-height: 56px;
     }
 
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__heading {
+        gap: 0.5rem;
+    }
 }
