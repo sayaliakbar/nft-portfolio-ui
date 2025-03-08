@@ -1,0 +1,73 @@
+.yorfy__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 4.5rem;
+}
+
+.yorfy__navbar-links {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.yorfy__navbar-links_logo a {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.yorfy__navbar-links_logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.yorfy__navbar-links_container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.yorfy__navbar-links_container p {
+    color: var(--text-disabled);
+}
+
+.yorfy__navbar-links_container p:hover {
+    color: var(--text-white);
+}
+
+.yorfy__navbar-links_container p:has(img) {
+    display: flex;
+}
+
+.yorfy__navbar-button img {
+    display: none;
+}
+
+@media screen and (max-width:950px) {
+    .yorfy__navbar {
+        padding: 1.5rem 2.5rem;
+    }
+
+    .yorfy__navbar-links_container {
+        display: none;
+    }
+
+    .yorfy__navbar-button img {
+        display: inline-block;
+        margin: 0 1rem;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+    .yorfy__navbar-links_logo img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .yorfy__navbar-links_logo h5 {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}
