@@ -12,6 +12,7 @@ body {
     scroll-behavior: smooth;
     max-width: 1500px;
     margin: auto;
+    overflow-x: hidden;
 }
 
 a {
