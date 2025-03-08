@@ -7,8 +7,8 @@ import sixfaces01 from "../../assets/images/sixfaces01.png";
 const Home = () => {
   return (
     <>
-      <div className="gradient__bg-home gradient__bg-blue " />
       <div className="yorfy__home section__margin">
+        <div className="gradient_yorfy__home gradient__bg-blue " />
         <div className="yorfy__home-leftcolumn">
           <Heading
             heading="Welcome to Yorfy"
@@ -33,6 +33,8 @@ const Home = () => {
           </div>
         </div>
         <div className="yorfy__home-rightcolumn">
+          {/* <div className="yorfy__home-rightcolumn__gradient gradient__bg-blue" /> */}
+
           <div className="yorfy__home-rightcolumn__image">
             <img src={sixfaces01} alt="Six Faces" />
           </div>
