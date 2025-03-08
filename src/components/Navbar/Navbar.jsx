@@ -2,8 +2,8 @@ import React from "react";
 
 import "./navbar.css";
 import logo from "../../assets/logo.svg";
-import arrowDropDown from "../../assets/arrow_drop_down.svg";
-import menu from "../../assets/menu.svg";
+import arrowDropDown from "../../assets/icons/arrow_drop_down.svg";
+import menu from "../../assets/icons/menu.svg";
 import Button from "../Button/Button.jsx";
 import { useLocation } from "react-router-dom";
 
