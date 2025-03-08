@@ -9,6 +9,7 @@ const Home = () => {
     <>
       <div className="yorfy__home section__margin">
         <div className="gradient__yorfy__home gradient__bg-blue " />
+        <div className="gradient__yorfy__home-rightcolumn__blue gradient__bg-blue" />
         <div className="yorfy__home-leftcolumn">
           <Heading
             heading="Welcome to Yorfy"
@@ -34,6 +35,7 @@ const Home = () => {
         </div>
         <div className="yorfy__home-rightcolumn">
           <div className="gradient__yorfy__home-rightcolumn__purple gradient__bg-purple" />
+
           <div className="yorfy__home-rightcolumn__image">
             <img src={sixfaces01} alt="Six Faces" />
           </div>
@@ -57,6 +59,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="yorfy__home">Helo</div>
+      <div className="yorfy__home">Helo</div>
+      <div className="yorfy__home">Helo</div>
+      <div className="yorfy__home">Helo</div>
+      <div className="yorfy__home">Helo</div>
+      <div className="yorfy__home">Helo</div>
+      <div className="yorfy__home">Helo</div>
+      <div className="yorfy__home">Helo</div>
     </>
   );
 };
