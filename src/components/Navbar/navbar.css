@@ -49,6 +49,10 @@
         padding: 1.5rem 2.5rem;
     }
 
+    .yorfy__navbar-button {
+        display: flex;
+    }
+
     .yorfy__navbar-links_container {
         display: none;
     }
@@ -61,6 +65,10 @@
 
 
 @media screen and (max-width:550px) {
+    .yorfy__navbar {
+        padding: 1rem 1rem;
+    }
+
     .yorfy__navbar-links_logo img {
         width: 2rem;
         height: 2rem;
