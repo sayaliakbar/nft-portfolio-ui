@@ -11,7 +11,25 @@ const Navbar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  console.log(currentPath);
+  const navLinks = [
+    { to: "/", text: "Home", hasDropdown: true },
+    { to: "/nft", text: "NFT" },
+    { to: "/roadmap", text: "Roadmap" },
+    { to: "/aboutus", text: "About Us" },
+    { to: "/contactus", text: "Contact Us" },
+    { to: "/pages", text: "Pages", hasDropdown: true },
+  ];
+
+  const NavLink = ({ to, text, hasDropdown }) => (
+    <p
+      className={`paragraph-caption ${
+        currentPath === to ? "link-medium link-bold" : ""
+      }`}
+    >
+      <a href={to}>{text}</a>
+      {hasDropdown && <img src={arrowDropDown} alt="Arrow dropdown" />}
+    </p>
+  );
 
   return (
     <div className="yorfy__navbar">
@@ -22,51 +40,10 @@ const Navbar = () => {
             <h5>YORFY</h5>
           </a>
         </div>
-        <div className="yorfy__navbar-links_container ">
-          <p
-            className={`paragraph-caption ${
-              currentPath === "/" ? "link-medium link-bold" : ""
-            }`}
-          >
-            <a href="/">Home</a>
-            <img src={arrowDropDown} alt="arrow drop down" />
-          </p>
-          <p
-            className={`paragraph-caption ${
-              currentPath === "/nft" ? "link-medium link-bold" : ""
-            }`}
-          >
-            <a href="/nft">NFT</a>
-          </p>
-          <p
-            className={`paragraph-caption ${
-              currentPath === "/roadmap" ? "link-medium link-bold" : ""
-            }`}
-          >
-            <a href="/roadmap">Roadmap</a>
-          </p>
-          <p
-            className={`paragraph-caption ${
-              currentPath === "/aboutus" ? "link-medium link-bold" : ""
-            }`}
-          >
-            <a href="/aboutus">About Us</a>
-          </p>
-          <p
-            className={`paragraph-caption ${
-              currentPath === "/contactus" ? "link-medium link-bold" : ""
-            }`}
-          >
-            <a href="/contactus">Contact Us</a>
-          </p>
-          <p
-            className={`paragraph-caption ${
-              currentPath === "/pages" ? "link-medium link-bold" : ""
-            }`}
-          >
-            <a href="/pages">Pages</a>
-            <img src={arrowDropDown} alt="Arrow Drop Down" />
-          </p>
+        <div className="yorfy__navbar-links_container">
+          {navLinks.map((link) => (
+            <NavLink key={link.to} {...link} />
+          ))}
         </div>
       </div>
       <div className="yorfy__navbar-button">
