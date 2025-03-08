@@ -1,0 +1,62 @@
+/* Base Button Styles */
+.yorfy__btn {
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+/* Button Sizes */
+.yorfy__btn-small {
+    padding: 4px 24px;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.yorfy__btn-medium {
+    padding: 8px 32px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.yorfy__btn-large {
+    padding: 8px 40px;
+    font-size: 1rem;
+    line-height: 32px;
+    letter-spacing: 0;
+}
+
+/* Primary Button */
+.yorfy__btn-primary {
+    background: var(--primary-blue);
+    color: var(--base-white);
+    border: 1px solid var(--primary-blue);
+}
+
+.yorfy__btn-primary:hover {
+    background: none;
+    border: 1px solid var(--base-white);
+}
+
+/* Secondary Button */
+.yorfy__btn-secondary {
+    background: none;
+    border: 1px solid var(--base-white);
+    color: var(--base-white);
+}
+
+.yorfy__btn-secondary:hover {
+    background: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+}
+
+/* Disabled Button */
+.yorfy__btn:disabled {
+    background: var(--text-disabled);
+    cursor: not-allowed;
+}
