@@ -22,3 +22,14 @@
     --accent-purple: #AA00FF;
     --accent-cyan: #5699FF;
 }
+
+.gradient__bg-blue {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin: 0;
+    background: var(--primary-blue);
+    filter: blur(120px);
+    opacity: 0.5;
+    z-index: 0;
+}

@@ -7,7 +7,7 @@
 
 html,
 body {
-    background-color: var(--primary-dark-blue);
+    background-color: var(--secondary-navy);
     color: var(--text-body);
     scroll-behavior: smooth;
 }
