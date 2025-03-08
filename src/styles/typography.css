@@ -54,6 +54,47 @@ h6 {
 p {
     font-size: 16px;
     line-height: 32px;
+    font-weight: 400;
     letter-spacing: 0;
     color: var(--text-white);
+}
+
+/* Paragraph Styles */
+.paragraph-label {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.paragraph-body {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.paragraph-caption {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Link Sizes */
+.link-small {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.link-medium {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.link-large {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+/* Bold Links */
+.link-bold {
+    font-weight: 700;
 }
