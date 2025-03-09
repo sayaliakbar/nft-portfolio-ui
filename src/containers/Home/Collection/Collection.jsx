@@ -40,7 +40,7 @@ const Collection = () => {
           </div>
         </div>
         <Button
-          type="secondary"
+          style="secondary"
           size="large"
           text="View on OpenSea"
           disabled={false}
