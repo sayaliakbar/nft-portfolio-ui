@@ -52,11 +52,16 @@
 
 
 .yorfy__home-header-rightcolumn__image {
+    flex: 1;
     position: absolute;
     top: 0;
-    background: #D9D9D9;
-    box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.8);
     border-radius: 8px;
+}
+
+.yorfy__home-header-rightcolumn__image img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.8);
 }
 
 .yorfy__home-header-rightcolumn__content {
@@ -67,7 +72,7 @@
     background: #FFFFFF1A;
     display: flex;
     align-items: end;
-    justify-content: center;
+    justify-content: space-between;
     gap: 0.5rem;
     padding: 2.25rem;
 }
