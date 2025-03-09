@@ -37,14 +37,14 @@ const Header = () => {
         <div className="yorfy__home-header-rightcolumn__content">
           <Button
             text="Buy an OpenSea"
-            type="primary"
+            style="primary"
             size="large"
             onClick={() => console.log("clicked")}
             disabled={false}
           />
           <Button
             text="Know More"
-            type="secondary"
+            style="secondary"
             size="large"
             onClick={() => console.log("clicked")}
             disabled={false}
