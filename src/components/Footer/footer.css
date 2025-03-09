@@ -1,0 +1,60 @@
+.yorfy__footer {
+    text-align: center;
+    margin-bottom: 0.75rem;
+
+}
+
+.yorfy__footer-logos__company {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.yorfy__footer-logos__social {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.yorfy__footer-divider {
+    border: 1px solid var(--primary-blue);
+    margin: 1rem 0;
+}
+
+.yorfy__footer-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yorfy__footer-credits {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__footer-logos__company img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .yorfy__footer-logos__company h5 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .yorfy__footer-logos__social {
+        gap: 0.75rem;
+    }
+
+    .yorfy__footer-logos__social img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .yorfy__footer-credits {
+        flex-direction: column;
+        text-align: start;
+        gap: 1rem;
+    }
+}
