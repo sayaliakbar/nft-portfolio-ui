@@ -2,6 +2,7 @@
     position: relative;
     z-index: 1;
     display: flex;
+    margin-bottom: 4.5rem;
 }
 
 .gradient__yorfy__home-header {
@@ -91,6 +92,10 @@
         right: -158px;
     }
 
+    .yorfy__home-header {
+        margin-bottom: 2.5rem;
+    }
+
     .yorfy__home-header-leftcolumn {
         padding-right: 2rem;
         gap: 24px;
@@ -148,6 +153,7 @@
     .yorfy__home-header {
         flex-direction: column;
         gap: 1rem;
+        margin-bottom: 0;
     }
 
     .yorfy__home-header-leftcolumn {
