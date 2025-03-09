@@ -1,29 +1,106 @@
-.yorfy__userCard {
-    width: 424px;
-    height: 88px;
-    gap: 16px;
-    border-radius: 8px;
-    padding: 16px;
+.yorfy__community {
+    display: flex;
+}
+
+.yorfy__community-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.yorfy__community-heading h1 {
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.yorfy__community-heading button {
+    width: fit-content;
+}
+
+.yorfy__community-userCards {
+    position: relative;
+
+
+}
+
+.yorfy__community-userCards>*:nth-child(1) {
     box-shadow: 0px 24px 80px 0px #000000CC;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.yorfy__userCard-user {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+
+.yorfy__community-userCards>*:nth-child(2) {
+    background: var(--primary-dark-blue);
+    opacity: 0.7;
+    position: absolute;
+    right: -30px;
+    top: 120px;
+    box-shadow: 0px 24px 80px 0px #000000CC;
 }
 
-.yorfy__userCard-user img:first-of-type {
-    width: 56px;
-    height: 56px;
-    border-radius: 100%;
-    background: #D9D9D9;
+.yorfy__community-userCards>*:nth-child(3) {
+    background: var(--primary-dark-blue);
+    opacity: 0.5;
+    position: absolute;
+    top: 240px;
+    right: -68px;
+
 }
 
-.yorfy__userCard img {
-    width: 24px;
-    height: 24px;
+@media screen and (max-width:950px) {
+    .yorfy__community {
+        flex-direction: column-reverse;
+
+
+    }
+
+    .yorfy__community-heading {
+        margin-top: 17rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .yorfy__community-heading h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .yorfy__community-userCards>*:nth-child(2) {
+        right: 120px;
+    }
+
+    .yorfy__community-userCards>*:nth-child(3) {
+        right: 0px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__community-userCards {
+        width: 328px;
+        height: 88px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .yorfy__community-userCards>*:nth-child(1) {
+        width: 100%;
+    }
+
+    .yorfy__community-userCards>*:nth-child(2) {
+        position: static;
+        width: 100%;
+    }
+
+    .yorfy__community-userCards>*:nth-child(3) {
+        position: static;
+        width: 100%;
+    }
+
+    .yorfy__community-heading {
+        margin-top: 14rem;
+    }
+
+    .yorfy__community-heading button {
+        width: 100%;
+    }
 }
