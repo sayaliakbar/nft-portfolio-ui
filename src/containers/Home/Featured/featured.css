@@ -1,0 +1,44 @@
+.yorfy__home__featured {
+    text-align: center;
+}
+
+.yorfy__home__featured-heading {
+    padding: 0 11rem;
+    margin-bottom: 40px;
+}
+
+.yorfy__home__featured-heading h1 {
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.yorfy__home__featured-container {
+    background: var(--primary-dark-blue);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 16px;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.yorfy__home__featured-container__content img {
+    width: 80px;
+    height: 80px;
+}
+
+
+.yorfy__home__featured-container__image img {
+    flex: 1;
+    box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.8);
+
+}
+
+.yorfy__home__featured-container__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
