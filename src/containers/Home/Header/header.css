@@ -1,0 +1,200 @@
+.yorfy__home-header {
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.gradient__yorfy__home-header {
+    top: 100px;
+    left: -230px;
+}
+
+.gradient__yorfy__home-header-rightcolumn__purple {
+    opacity: 1;
+    left: -96px;
+    top: 36px;
+    width: 320px;
+    height: 320px;
+}
+
+.gradient__yorfy__home-header-rightcolumn__blue {
+    opacity: 1;
+    bottom: 0;
+    right: -140px;
+}
+
+.yorfy__home-header-leftcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-right: 6rem;
+}
+
+.yorfy__home-header-leftcolumn__milestones {
+    display: flex;
+    gap: 40px
+}
+
+.yorfy__home-header-leftcolumn__milestones-divider {
+    border: 1px solid var(--text-disabled);
+    height: 80px;
+}
+
+.yorfy__home-header-rightcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+}
+
+
+
+.yorfy__home-header-rightcolumn__image {
+    position: absolute;
+    top: 0;
+    background: #D9D9D9;
+    box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+}
+
+.yorfy__home-header-rightcolumn__content {
+    width: 480px;
+    height: 208px;
+    border: 2px solid var(--primary-blue);
+    border-radius: 0.5rem;
+    background: #FFFFFF1A;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2.25rem;
+}
+
+
+@media screen and (max-width:950px) {
+
+    .gradient_yorfy__home-header {
+        top: 96px;
+        left: -110px;
+    }
+
+    .gradient__yorfy__home-header-rightcolumn__purple {
+        left: -84px;
+        top: 26px;
+        width: 240px;
+        height: 240px;
+    }
+
+    .gradient__yorfy__home-header-rightcolumn__blue {
+        bottom: 36px;
+        right: -158px;
+    }
+
+    .yorfy__home-header-leftcolumn {
+        padding-right: 2rem;
+        gap: 24px;
+    }
+
+    .yorfy__home-header-leftcolumn__milestones {
+        gap: 1rem;
+    }
+
+
+
+
+    .yorfy__home-header-rightcolumn__image img {
+        width: 252px;
+        height: 312px;
+
+    }
+
+    .yorfy__home-header-rightcolumn__content {
+        width: 300px;
+        height: 256px;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .yorfy__home-header-rightcolumn__content button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+
+    .gradient_yorfy__home-header {
+        top: 10px;
+        right: -144px;
+        left: auto;
+    }
+
+    .gradient__yorfy__home-header-rightcolumn__purple {
+        left: -100px;
+        top: -50px;
+    }
+
+    .gradient__yorfy__home-header-rightcolumn__blue {
+        bottom: 100px;
+        right: -100px;
+    }
+
+
+
+    .yorfy__home-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .yorfy__home-header-leftcolumn {
+        gap: 1rem;
+        padding-right: 0;
+    }
+
+
+    .yorfy__home-header-leftcolumn__milestones {
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .yorfy__home-header-leftcolumn__milestones h3 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .yorfy__home-header-leftcolumn__milestones p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .yorfy__home-header-rightcolumn {
+        position: relative;
+        margin-bottom: 10rem;
+    }
+
+    .yorfy__home-header-rightcolumn__image {
+        position: relative;
+    }
+
+    .yorfy__home-header-rightcolumn__image img {
+
+        min-width: 280px;
+        min-height: 312px;
+    }
+
+
+
+    .yorfy__home-header-rightcolumn__content {
+        width: 100%;
+        position: absolute;
+        top: 220px;
+        z-index: -1;
+        padding: 0.5rem 1rem;
+    }
+
+
+}
