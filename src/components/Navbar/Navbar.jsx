@@ -50,10 +50,10 @@ const Navbar = () => {
         <img src={menu} alt="Menu" />
         <Button
           text="Join Us"
+          style="primary"
           disabled={false}
           size="medium"
           onClick={() => console.log("clicked")}
-          type="primary"
         />
       </div>
     </div>
