@@ -13,7 +13,7 @@ const Community = () => {
         />
         <Button
           text="Join Our Discord"
-          type="primary"
+          style="primary"
           size="large"
           onClick={() => {
             console.log("clicked");
