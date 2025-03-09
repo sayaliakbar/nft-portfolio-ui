@@ -25,44 +25,18 @@
 
 .gradient__bg-blue {
     position: absolute;
-    height: 400px;
-    width: 400px;
-    margin: 0;
     background: var(--primary-blue);
     filter: blur(120px);
-    opacity: 0.5;
-    z-index: -1;
 }
 
 .gradient__bg-purple {
     position: absolute;
-    height: 400px;
-    width: 400px;
-    margin: 0;
     background: var(--accent-purple);
     filter: blur(120px);
-    opacity: 0.5;
-    z-index: -1;
 }
 
 .gradient__bg-cyan {
     position: absolute;
-    height: 400px;
-    width: 400px;
-    margin: 0;
     background: var(--accent-cyan);
     filter: blur(120px);
-    opacity: 0.5;
-    z-index: -1;
-}
-
-@media screen and (max-width:950px) {
-
-    .gradient__bg-blue,
-    .gradient__bg-cyan,
-    .gradient__bg-purple {
-        height: 320px;
-        width: 320px;
-    }
-
 }
