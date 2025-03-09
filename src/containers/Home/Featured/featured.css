@@ -96,3 +96,28 @@
 
     }
 }
+
+@media screen and (max-width:550px) {
+
+
+    .yorfy__home__featured-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem 1rem;
+        gap: 24px;
+        /* grid-template-columns: 1fr; */
+    }
+
+    .yorfy__home__featured-container__content {
+        gap: 0.5rem;
+    }
+
+    .yorfy__home__featured-container__content img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .yorfy__home__featured-container__content button {
+        width: 100%;
+    }
+}
