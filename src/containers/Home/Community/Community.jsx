@@ -23,6 +23,8 @@ const Community = () => {
       </div>
       <div className="yorfy__community-userCards">
         <UserCard />
+        <UserCard />
+        <UserCard />
       </div>
     </div>
   );
