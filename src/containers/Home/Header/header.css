@@ -153,7 +153,6 @@
     .yorfy__home-header {
         flex-direction: column;
         gap: 1rem;
-        margin-bottom: 0;
     }
 
     .yorfy__home-header-leftcolumn {
