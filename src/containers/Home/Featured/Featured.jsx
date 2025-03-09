@@ -35,7 +35,7 @@ const Featured = () => {
           </p>
           <Button
             text="But on OpenSea"
-            type="primary"
+            style="primary"
             size="large"
             onClick={() => console.log("clicked")}
             disabled={false}
