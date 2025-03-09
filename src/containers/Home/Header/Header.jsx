@@ -42,7 +42,6 @@ const Header = () => {
             onClick={() => console.log("clicked")}
             disabled={false}
           />
-          <Button />
           <Button
             text="Know More"
             type="secondary"
@@ -50,7 +49,6 @@ const Header = () => {
             onClick={() => console.log("clicked")}
             disabled={false}
           />
-          <Button />
         </div>
       </div>
     </div>
