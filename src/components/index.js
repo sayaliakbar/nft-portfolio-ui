@@ -8,6 +8,8 @@ import Input from "./Input/Input.jsx";
 import NFTCard from "./NFTCard/NFTCard.jsx";
 import Collection from "./Collection/Collection.jsx";
 import PointCard from "./PointCard/PointCard.jsx";
+import BgGradients from "./Gradients/BgGradients.jsx";
+import ImageCard from "./ImageCard/ImageCard.jsx";
 
 export {
   Button,
@@ -20,4 +22,6 @@ export {
   NFTCard,
   Collection,
   PointCard,
+  BgGradients,
+  ImageCard,
 };
