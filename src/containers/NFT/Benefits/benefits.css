@@ -37,3 +37,30 @@
 .yorfy__nft-benefits__content-card__text h5 {
     margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width:950px) {
+    .yorfy__nft-benefits {
+        flex-direction: column;
+    }
+
+    .yorfy__nft-benefits .yorfy__heading h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__heading {
+        text-align: center;
+    }
+
+    .yorfy__nft-benefits {
+        gap: 1rem;
+    }
+
+    .yorfy__nft-benefits__content-card__text h5 {
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
+}
