@@ -5,5 +5,17 @@ import Heading from "./Heading/Heading.jsx";
 import SaleBar from "./SaleBar/SaleBar.jsx";
 import UserCard from "./UserCard/UserCard.jsx";
 import Input from "./Input/Input.jsx";
+import NFTCard from "./NFTCard/NFTCard.jsx";
+import Collection from "./Collection/Collection.jsx";
 
-export { Button, Footer, Navbar, Heading, SaleBar, UserCard, Input };
+export {
+  Button,
+  Footer,
+  Navbar,
+  Heading,
+  SaleBar,
+  UserCard,
+  Input,
+  NFTCard,
+  Collection,
+};
