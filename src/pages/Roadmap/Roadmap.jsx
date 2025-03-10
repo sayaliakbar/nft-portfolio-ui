@@ -22,6 +22,7 @@ const Roadmap = () => {
         />
         <Button text="Send Your Resume" size="large" />
       </div>
+      <BgGradients />
     </>
   );
 };
