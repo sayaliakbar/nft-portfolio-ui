@@ -1,0 +1,134 @@
+.yorfy__aboutUs-hero {
+    display: flex;
+    margin: 6.5rem 0;
+    align-items: start;
+    justify-content: space-between;
+    gap: 7rem;
+}
+
+.yorfy__aboutUs-hero__milestones {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.yorfy__aboutUs-hero__milestones-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 84px;
+}
+
+.yorfy__aboutUs-hero__milestones-divider {
+    border: 1px solid #EBEBEB
+}
+
+.yorfy__aboutUs-hero__heading {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.yorfy__aboutUs-hero .yorfy__aboutUs-hero__heading div {
+    padding: 0;
+}
+
+.yorfy__aboutUs-hero .yorfy__aboutUs-hero__heading div h1 {
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.yorfy__aboutUs-hero__heading button {
+    width: fit-content;
+}
+
+.yorfy__aboutUs-hero__brands {
+    max-width: 182px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+@media screen and (max-width:950px) {
+    .yorfy__aboutUs-hero {
+        gap: 0;
+        margin: 2.5rem 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .yorfy__aboutUs-hero__milestones-items h3 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .yorfy__aboutUs-hero .yorfy__aboutUs-hero__heading div h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .yorfy__aboutUs-hero__brands {
+        flex-direction: row;
+        align-items: center;
+        flex: 1 1;
+        max-width: 100%;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .yorfy__aboutUs-hero__brands img {
+        width: 140px;
+    }
+
+    .yorfy__aboutUs-hero__milestones {
+        flex: 0 1;
+        margin-right: 2.5rem;
+    }
+
+    .yorfy__aboutUs-hero__heading {
+        flex: 1 1;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__aboutUs-hero {
+        gap: 1.5rem;
+    }
+
+    .yorfy__aboutUs-hero__milestones {
+        flex-direction: row;
+        flex: 1;
+        gap: 1.5rem;
+    }
+
+    .yorfy__aboutUs-hero__milestones-items p {
+
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .yorfy__aboutUs-hero__milestones-items {
+        min-width: 58px;
+    }
+
+    .yorfy__aboutUs-hero__heading .yorfy__heading {
+        text-align: start;
+    }
+
+    .yorfy__aboutUs-hero__heading button {
+        width: 100%;
+    }
+
+    .yorfy__aboutUs-hero__brands {
+
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: start;
+    }
+
+}
