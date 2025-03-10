@@ -3,6 +3,7 @@ import React from "react";
 import "./about.css";
 
 import { Heading, BgGradients } from "../../components/index.js";
+import { Hero } from "../../containers/About/index.js";
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
           title="About Us"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
+        <Hero />
       </div>
     </>
   );
