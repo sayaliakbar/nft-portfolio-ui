@@ -1,6 +1,6 @@
 import React from "react";
 import "./benefits.css";
-import { Heading } from "../../../components/index.js";
+import { Heading, PointCard } from "../../../components/index.js";
 import benefitsCheck from "../../../assets/icons/benefits-check-icon.svg";
 const Benefits = () => {
   return (
@@ -11,42 +11,24 @@ const Benefits = () => {
         body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       />
       <div className="yorfy__nft-benefits__content">
-        <div className="yorfy__nft-benefits__content-card">
-          <div className="yorfy__nft-benefits__content-card__logo">
-            <img src={benefitsCheck} alt="benefits check" />
-          </div>
-          <div className="yorfy__nft-benefits__content-card__text">
-            <h5>Original Design</h5>
-            <p className="paragraph-label">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et.
-            </p>
-          </div>
-        </div>
-        <div className="yorfy__nft-benefits__content-card">
-          <div className="yorfy__nft-benefits__content-card__logo">
-            <img src={benefitsCheck} alt="benefits check" />
-          </div>
-          <div className="yorfy__nft-benefits__content-card__text">
-            <h5>Eye Catching</h5>
-            <p className="paragraph-label">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et.
-            </p>
-          </div>
-        </div>
-        <div className="yorfy__nft-benefits__content-card">
-          <div className="yorfy__nft-benefits__content-card__logo">
-            <img src={benefitsCheck} alt="benefits check" />
-          </div>
-          <div className="yorfy__nft-benefits__content-card__text">
-            <h5>Up to Date</h5>
-            <p className="paragraph-label">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et.
-            </p>
-          </div>
-        </div>
+        <PointCard
+          imageSource={benefitsCheck}
+          title="Original Design"
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et."
+        />
+        <PointCard
+          imageSource={benefitsCheck}
+          title="Eye Catching"
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et."
+        />
+        <PointCard
+          imageSource={benefitsCheck}
+          title="Up to Date"
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et."
+        />
       </div>
     </div>
   );
