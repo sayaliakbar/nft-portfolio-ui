@@ -3,7 +3,7 @@ import React from "react";
 import "./nft.css";
 import { Heading, Collection } from "../../components/index.js";
 
-import { NftBgGradients } from "../../containers/NFT/index.js";
+import { NftBgGradients, Benefits } from "../../containers/NFT/index.js";
 
 import {
   sixfaces01,
@@ -45,6 +45,7 @@ const NFT = () => {
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <Collection nftCollectionData={nftCollectionData} />
+        <Benefits />
       </div>
     </>
   );
