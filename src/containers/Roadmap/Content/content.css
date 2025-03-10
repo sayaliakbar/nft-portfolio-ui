@@ -1,0 +1,10 @@
+.yorfy__roadmap-content .yorfy__imageCard:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+@media screen and (max-width:950px) {
+    .yorfy__roadmap-content .yorfy__imageCard:nth-child(even) {
+        flex-direction: column;
+    }
+}
