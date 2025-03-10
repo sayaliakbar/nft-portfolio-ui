@@ -5,8 +5,8 @@ import done from "../../assets/icons/done.svg";
 
 const Button = ({
   text,
-  style,
-  size,
+  style = "primary",
+  size = "small",
   onClick,
   disabled = false,
   icon = false,
