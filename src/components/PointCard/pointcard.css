@@ -1,0 +1,29 @@
+.yorfy__nft-pointcard {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: var(--primary-dark-blue);
+}
+
+.yorfy__nft-pointcard:first-child {
+    box-shadow: 0px 24px 80px 0px #000000CC;
+}
+
+.yorfy__nft-pointcard__text h5 {
+    margin-bottom: 0.5rem;
+}
+
+.yorfy__nft-pointcard__text-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__nft-pointcard__text h5 {
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
+}
