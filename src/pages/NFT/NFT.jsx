@@ -1,13 +1,9 @@
 import React from "react";
 
 import "./nft.css";
-import { Heading, Collection } from "../../components/index.js";
+import { Heading, Collection, BgGradients } from "../../components/index.js";
 
-import {
-  NftBgGradients,
-  Benefits,
-  Timeline,
-} from "../../containers/NFT/index.js";
+import { Benefits, Timeline } from "../../containers/NFT/index.js";
 
 import {
   sixfaces01,
@@ -41,7 +37,7 @@ const nftCollectionData = [
 const NFT = () => {
   return (
     <>
-      <NftBgGradients />
+      <BgGradients />
       <div className="yorfy__nft">
         <Heading
           title="Our Collection"
