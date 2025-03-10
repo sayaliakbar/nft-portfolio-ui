@@ -1,0 +1,39 @@
+.yorfy__nft-benefits {
+    text-align: start;
+    display: flex;
+    gap: 56px;
+}
+
+.yorfy__nft-benefits .yorfy__heading {
+    padding: 0;
+    max-width: 656px;
+}
+
+.yorfy__nft-benefits .yorfy__heading h1 {
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.yorfy__nft-benefits__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.yorfy__nft-benefits__content-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: var(--primary-dark-blue);
+    /* justify-content: center; */
+
+}
+
+.yorfy__nft-benefits__content-card:first-child {
+    box-shadow: 0px 24px 80px 0px #000000CC;
+}
+
+.yorfy__nft-benefits__content-card__text h5 {
+    margin-bottom: 0.5rem;
+}
