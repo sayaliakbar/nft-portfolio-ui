@@ -1,0 +1,68 @@
+.yorfy__nft-header__gradient-purple {
+    width: 320px;
+    height: 320px;
+    top: 192px;
+    left: -40px;
+}
+
+.yorfy__nft-header__gradient-blue {
+    width: 400px;
+    height: 400px;
+    top: 128px;
+    left: 920px;
+}
+
+.yorfy__nft {
+    position: relative;
+    text-align: center;
+}
+
+.yorfy__nft .yorfy__heading {
+    padding: 2.5rem 20rem;
+}
+
+
+@media screen and (max-width:950px) {
+    .yorfy__nft-header__gradient-purple {
+        width: 240px;
+        height: 240px;
+        top: 152px;
+        left: -108px;
+    }
+
+    .yorfy__nft-header__gradient-blue {
+        width: 320px;
+        height: 320px;
+        top: 104px;
+        left: 532px;
+    }
+
+    .yorfy__nft .yorfy__heading {
+        padding: 2.5rem 2rem;
+    }
+
+    .yorfy__nft .yorfy__heading h1 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    @media screen and (max-width: 550px) {
+        .yorfy__nft-header__gradient-purple {
+            width: 160px;
+            height: 160px;
+            top: 240px;
+            left: -60px;
+        }
+
+        .yorfy__nft-header__gradient-blue {
+            width: 240px;
+            height: 240px;
+            top: 88px;
+            left: 180px;
+        }
+
+        .yorfy__nft .yorfy__heading {
+            padding: 1.5rem 1rem;
+        }
+    }
+}
