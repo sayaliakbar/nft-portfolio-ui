@@ -3,25 +3,34 @@ import React from "react";
 import "./home.css";
 
 import {
-  Gradients,
+  HomeBgGradients,
   Header,
   Featured,
-  Collection,
   Community,
   Collaboration,
   Newsletter,
 } from "../../containers/Home/index.js";
-import { SaleBar } from "../../components/index.js";
+
+import { SaleBar, Collection } from "../../components/index.js";
+
+import { sixfaces01, sixfaces02, sixfaces03 } from "./imports.js";
+
+const nftCollectionData = [
+  { title: "YorNoose #432", imageSource: sixfaces01 },
+  { title: "YorHayr #332", imageSource: sixfaces02 },
+  { title: "YorMwoth #765", imageSource: sixfaces03 },
+];
 
 const Home = () => {
   return (
     <>
-      <Gradients />
+      <HomeBgGradients />
       <div className="yorfy__home">
         <Header />
         <SaleBar />
         <Featured />
-        <Collection />
+        <Collection nftCollectionData={nftCollectionData} />
+
         <Community />
         <SaleBar />
         <Collaboration />
