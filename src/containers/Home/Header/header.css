@@ -3,32 +3,16 @@
     z-index: 1;
     display: flex;
     margin-bottom: 4.5rem;
+    justify-content: space-between;
 }
 
-.gradient__yorfy__home-header {
-    top: 100px;
-    left: -230px;
-}
-
-.gradient__yorfy__home-header-rightcolumn__purple {
-    opacity: 1;
-    left: -96px;
-    top: 36px;
-    width: 320px;
-    height: 320px;
-}
-
-.gradient__yorfy__home-header-rightcolumn__blue {
-    opacity: 1;
-    bottom: 0;
-    right: -140px;
-}
 
 .yorfy__home-header-leftcolumn {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding-right: 6rem;
+    /* padding-right: 6rem; */
+    max-width: 560px;
 }
 
 .yorfy__home-header-leftcolumn__milestones {
@@ -80,23 +64,6 @@
 
 @media screen and (max-width:950px) {
 
-    .gradient_yorfy__home-header {
-        top: 96px;
-        left: -110px;
-    }
-
-    .gradient__yorfy__home-header-rightcolumn__purple {
-        left: -84px;
-        top: 26px;
-        width: 240px;
-        height: 240px;
-    }
-
-    .gradient__yorfy__home-header-rightcolumn__blue {
-        bottom: 36px;
-        right: -158px;
-    }
-
     .yorfy__home-header {
         margin-bottom: 2.5rem;
     }
@@ -135,25 +102,6 @@
 }
 
 @media screen and (max-width:550px) {
-
-
-    .gradient_yorfy__home-header {
-        top: 10px;
-        right: -144px;
-        left: auto;
-    }
-
-    .gradient__yorfy__home-header-rightcolumn__purple {
-        left: -100px;
-        top: -50px;
-    }
-
-    .gradient__yorfy__home-header-rightcolumn__blue {
-        bottom: 100px;
-        right: -100px;
-    }
-
-
 
     .yorfy__home-header {
         flex-direction: column;
