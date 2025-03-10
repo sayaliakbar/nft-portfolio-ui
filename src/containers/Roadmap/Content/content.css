@@ -2,6 +2,10 @@
     flex-direction: row-reverse;
 }
 
+.yorfy__roadmap .yorfy__roadmap-content .yorfy__imageCard:nth-last-of-type(2) .yorfy__imageCard-content button,
+.yorfy__roadmap .yorfy__roadmap-content .yorfy__imageCard:nth-last-of-type(1) .yorfy__imageCard-content button {
+    background: var(--accent-cyan);
+}
 
 @media screen and (max-width:950px) {
     .yorfy__roadmap-content .yorfy__imageCard:nth-child(even) {
