@@ -18,6 +18,17 @@
 
 .yorfy__roadmap>div:nth-child(3) {
     padding: 1rem 10rem;
+    z-index: 1;
+}
+
+.yorfy__gradient-purple:nth-last-of-type(2) {
+    top: 3556px;
+    left: -40px;
+}
+
+.yorfy__gradient-blue:last-of-type {
+    top: 3492px;
+    left: 920px;
 }
 
 @media screen and (max-width:950px) {
@@ -33,6 +44,16 @@
 
     .yorfy__roadmap>div:nth-child(3) {
         padding: 1.5rem 3rem;
+    }
+
+    .yorfy__gradient-purple:nth-last-of-type(2) {
+        top: 5360px;
+        left: -108px;
+    }
+
+    .yorfy__gradient-blue:last-of-type {
+        top: 5300px;
+        left: 532px;
     }
 }
 
@@ -56,5 +77,19 @@
 
     .yorfy__roadmap button:last-child {
         width: 90%;
+    }
+
+    .yorfy__gradient-purple:nth-last-of-type(2) {
+        width: 160px;
+        height: 160px;
+        top: 4150px;
+        left: -60px;
+    }
+
+    .yorfy__gradient-blue:last-of-type {
+        width: 240px;
+        height: 240px;
+        top: 3980px;
+        left: 180px;
     }
 }
