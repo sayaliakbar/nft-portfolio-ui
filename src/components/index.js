@@ -7,6 +7,7 @@ import UserCard from "./UserCard/UserCard.jsx";
 import Input from "./Input/Input.jsx";
 import NFTCard from "./NFTCard/NFTCard.jsx";
 import Collection from "./Collection/Collection.jsx";
+import PointCard from "./PointCard/PointCard.jsx";
 
 export {
   Button,
@@ -18,4 +19,5 @@ export {
   Input,
   NFTCard,
   Collection,
+  PointCard,
 };
