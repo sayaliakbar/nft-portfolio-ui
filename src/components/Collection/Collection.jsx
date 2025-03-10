@@ -2,14 +2,14 @@ import React from "react";
 import "./collection.css";
 import { Heading, Button, NFTCard } from "../index.js";
 
-const Collection = ({ nftCollectionData }) => {
+const Collection = ({ nftCollectionData, heading, button = false }) => {
   return (
     <div className="yorfy__collection section__margin">
       <div className="yorfy__collection__heading">
         <Heading
-          heading="Collections"
-          title="Yorfy NFT Collections"
-          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          heading={heading.heading}
+          title={heading.title}
+          body={heading.body}
         />
       </div>
       <div className="yorfy__collection__content">
@@ -19,16 +19,20 @@ const Collection = ({ nftCollectionData }) => {
               key={index}
               imageSource={item.imageSource}
               title={item.title}
+              logo={item.logo}
+              body={item.body}
             />
           ))}
       </div>
-      <Button
-        style="secondary"
-        size="large"
-        text="View on OpenSea"
-        disabled={false}
-        onClick={() => console.log("clicked")}
-      />
+      {button && (
+        <Button
+          style="secondary"
+          size="large"
+          text="View on OpenSea"
+          disabled={false}
+          onClick={() => console.log("clicked")}
+        />
+      )}
     </div>
   );
 };
