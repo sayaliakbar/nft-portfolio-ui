@@ -1,3 +1,3 @@
 import NftBgGradients from "./Gradients/NftBgGradients.jsx";
-
-export { NftBgGradients };
+import Benefits from "./Benefits/Benefits.jsx";
+export { NftBgGradients, Benefits };
