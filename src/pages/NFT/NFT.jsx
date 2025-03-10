@@ -11,28 +11,33 @@ import {
   sixfaces03,
   sixfaces04,
   sixfaces05,
+  logo,
 } from "./imports.js";
 
 const nftCollectionData = [
-  { title: "YorNoose #432", imageSource: sixfaces01 },
-  { title: "YorHayr #332", imageSource: sixfaces02 },
-  { title: "YorMwoth #765", imageSource: sixfaces03 },
+  { title: "YorNoose #432", imageSource: sixfaces01, logo },
+  { title: "YorHayr #332", imageSource: sixfaces02, logo },
+  { title: "YorMwoth #765", imageSource: sixfaces03, logo },
   {
     title: "YorTyth #646",
     imageSource: sixfaces04,
+    logo,
   },
-  { title: "YorLyps #167", imageSource: sixfaces05 },
-  { title: "YorEyes #234", imageSource: sixfaces01 },
-  { title: "YorTwong #912", imageSource: sixfaces02 },
-  { title: "YorCray #348", imageSource: sixfaces03 },
-  {
-    title: "YorErpon #966",
-    imageSource: sixfaces04,
-  },
-  { title: "YorLup #521", imageSource: sixfaces05 },
-  { title: "YorFlo #730", imageSource: sixfaces01 },
-  { title: "YorSmyl #309", imageSource: sixfaces02 },
+  { title: "YorLyps #167", imageSource: sixfaces05, logo },
+  { title: "YorEyes #234", imageSource: sixfaces01, logo },
+  { title: "YorTwong #912", imageSource: sixfaces02, logo },
+  { title: "YorCray #348", imageSource: sixfaces03, logo },
+  { title: "YorErpon #966", imageSource: sixfaces04, logo },
+  { title: "YorLup #521", imageSource: sixfaces05, logo },
+  { title: "YorFlo #730", imageSource: sixfaces01, logo },
+  { title: "YorSmyl #309", imageSource: sixfaces02, logo },
 ];
+
+const nftCollectionHeading = {
+  heading: "Our Team",
+  title: "Behind the Yorfy NFT",
+  body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+};
 
 const NFT = () => {
   return (
@@ -44,7 +49,11 @@ const NFT = () => {
           heading="NFT"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
-        <Collection nftCollectionData={nftCollectionData} />
+        <Collection
+          nftCollectionData={nftCollectionData}
+          heading={nftCollectionHeading}
+          button={true}
+        />
         <Benefits />
         <Timeline />
       </div>
