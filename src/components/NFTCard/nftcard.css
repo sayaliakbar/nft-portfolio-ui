@@ -1,0 +1,49 @@
+.yorfy__nftcard {
+    padding: 1.5rem;
+    border: 1px solid var(--primary-blue);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.yorfy__nftcard-image {
+    width: 320px;
+    height: 320px;
+}
+
+.yorfy__nftcard img {
+    box-shadow: 0px 24px 80px 0px #000000CC;
+}
+
+.yorfy__nftcard div {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width:950px) {
+    .yorfy__nftcard {
+        padding: 1rem;
+        flex: 0;
+    }
+
+    .yorfy__nftcard {
+        gap: 1.5rem;
+    }
+
+    .yorfy__nftcard img {
+        width: 292px;
+        height: 320px;
+    }
+
+    .yorfy__nftcard h5 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .yorfy__nftcard div img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
