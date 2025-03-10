@@ -1,0 +1,70 @@
+.yorfy__collection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.yorfy__collection__heading {
+    padding: 0 15rem;
+}
+
+.yorfy__collection__heading h1 {
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.yorfy__collection__content {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.yorfy__collection button {
+    width: fit-content;
+}
+
+
+
+@media screen and (max-width:950px) {
+    .yorfy__collection {
+        gap: 1.5rem;
+    }
+
+    .yorfy__collection__heading {
+        padding: 0;
+    }
+
+    .yorfy__collection__heading h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .yorfy__collection__content {
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__collection {
+        gap: 1rem;
+    }
+
+    .yorfy__collection button {
+        width: 100%;
+    }
+
+
+
+}
