@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.yorfy__heading:first-child {
+.yorfy__aboutUs>.yorfy__heading:first-child {
     padding: 0rem 11rem;
 }
 
@@ -11,9 +11,53 @@
     padding: 0;
 }
 
+.yorfy__aboutUs .yorfy__collection {
+    padding: 0;
+    margin: 0;
+}
+
+.yorfy__aboutUs .yorfy__collection .yorfy__collection__heading h1 {
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.yorfy__aboutUs .yorfy__collection .yorfy__collection__heading {
+    padding: 0 11rem;
+}
+
+.yorfy__aboutUs .yorfy__collection .yorfy__collection__content {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.yorfy__aboutUs .yorfy__collection .yorfy__collection__content .yorfy__nftcard .yorfy__nftcard-content {
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.yorfy__aboutUs .yorfy__collection .yorfy__collection__content .yorfy__nftcard img {
+    max-width: 310px;
+}
+
 @media screen and (max-width:950px) {
-    .yorfy__heading:first-child {
+    .yorfy__aboutUs>.yorfy__heading:first-child {
         padding: 0;
+    }
+
+    .yorfy__aboutUs .yorfy__collection .yorfy__collection__heading {
+        padding: 2.5rem 0 0 0;
+    }
+
+    .yorfy__aboutUs .yorfy__collection .yorfy__collection__heading h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .yorfy__aboutUs .yorfy__collection .yorfy__collection__content {
+
+        margin-bottom: 2.5rem;
     }
 }
 
@@ -31,5 +75,18 @@
 
     .yorfy__aboutUs .yorfy__imageCard .yorfy__imageCard-content .yorfy__heading {
         text-align: start;
+    }
+
+    .yorfy__aboutUs .yorfy__collection .yorfy__collection__content {
+
+        margin-bottom: 0rem;
+    }
+
+    .yorfy__aboutUs .yorfy__collection .yorfy__collection__heading {
+        padding: 0;
+    }
+
+    .yorfy__aboutUs .yorfy__collection {
+        margin: 2.5rem 0;
     }
 }
