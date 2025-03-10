@@ -9,7 +9,7 @@ const ImageCard = ({ imageSource, button, heading, title, body }) => {
         <img src={imageSource} alt={title} />
       </div>
       <div className="yorfy__imageCard-content">
-        <Button text={button} />
+        {button && <Button text={button} />}
         <Heading heading={heading} title={title} body={body} />
       </div>
     </div>
