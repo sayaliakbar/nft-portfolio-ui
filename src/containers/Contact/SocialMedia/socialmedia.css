@@ -1,0 +1,27 @@
+.yorfy__contactUs-socialMedia {
+    margin: 6rem 16rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.yorfy__contactUs-socialMedia .yorfy__nft-pointcard {
+    max-width: 368px;
+}
+
+@media screen and (max-width:950px) {
+    .yorfy__contactUs-socialMedia {
+        margin: 4rem 2.5rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__contactUs-socialMedia {
+        margin: 2.5rem 1rem;
+        flex-direction: column;
+    }
+
+    .yorfy__contactUs-socialMedia .yorfy__nft-pointcard {
+        flex-direction: row;
+    }
+}
