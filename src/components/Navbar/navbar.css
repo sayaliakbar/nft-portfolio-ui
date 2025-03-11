@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     gap: 24px;
+
 }
 
 .yorfy__navbar-links_container p {
@@ -34,7 +35,9 @@
 
 .yorfy__navbar-links_container p:hover {
     color: var(--text-white);
+    cursor: pointer;
 }
+
 
 .yorfy__navbar-links_container p:has(img) {
     display: flex;
