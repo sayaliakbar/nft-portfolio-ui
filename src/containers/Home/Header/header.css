@@ -61,7 +61,7 @@
 }
 
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:850px) {
 
     .yorfy__home-header {
         margin-bottom: 2.5rem;
@@ -75,9 +75,6 @@
     .yorfy__home-header-leftcolumn__milestones {
         gap: 1rem;
     }
-
-
-
 
     .yorfy__home-header-rightcolumn__image img {
         width: 252px;
@@ -100,7 +97,7 @@
     }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:720px) {
 
     .yorfy__home-header {
         flex-direction: column;
