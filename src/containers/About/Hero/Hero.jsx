@@ -3,6 +3,7 @@ import React from "react";
 import "./hero.css";
 
 import { Button, Heading } from "../../../components/index.js";
+import { useNavigate } from "react-router-dom";
 
 import {
   logoipsum01,
@@ -12,6 +13,7 @@ import {
 } from "./imports.js";
 
 const Hero = () => {
+  const Navigate = useNavigate();
   return (
     <div className="yorfy__aboutUs-hero ">
       <div className="yorfy__aboutUs-hero__milestones">
@@ -37,7 +39,12 @@ const Hero = () => {
           title="Let’me Introduce You About Yorfy"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />
-        <Button text="Read More" size="large" style="secondary" />
+        <Button
+          text="Read More"
+          size="large"
+          style="secondary"
+          onClick={() => Navigate("/error")}
+        />
       </div>
       <div className="yorfy__aboutUs-hero__brands">
         <img src={logoipsum01} alt="logoipsum01" />
