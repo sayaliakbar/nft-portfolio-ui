@@ -7,6 +7,22 @@
 
 
 
+
 .yorfy__errorPage button {
     width: fit-content;
+}
+
+
+@media screen and (max-width:950px) {
+
+    .yorfy__errorPage .yorfy__hero {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__errorPage button {
+        width: 100%;
+    }
+
 }
