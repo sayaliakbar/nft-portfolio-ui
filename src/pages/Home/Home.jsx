@@ -6,12 +6,11 @@ import {
   HomeBgGradients,
   Header,
   Featured,
-  Community,
   Collaboration,
   Newsletter,
 } from "../../containers/Home/index.js";
 
-import { SaleBar, Collection } from "../../components/index.js";
+import { SaleBar, Collection, Community } from "../../components/index.js";
 
 import { sixfaces01, sixfaces02, sixfaces03, logo } from "./imports.js";
 
