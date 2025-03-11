@@ -4,7 +4,11 @@ import "./header.css";
 
 import sixfaces01 from "../../../assets/images/sixfaces01.png";
 
+import { useNavigate } from "react-router-dom";
+
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="yorfy__home-header section__margin">
       <div className="yorfy__home-header-leftcolumn">
@@ -39,14 +43,14 @@ const Header = () => {
             text="Buy an OpenSea"
             style="primary"
             size="large"
-            onClick={() => console.log("clicked")}
+            onClick={() => navigate("/error")}
             disabled={false}
           />
           <Button
             text="Know More"
             style="secondary"
             size="large"
-            onClick={() => console.log("clicked")}
+            onClick={() => navigate("/error")}
             disabled={false}
           />
         </div>
