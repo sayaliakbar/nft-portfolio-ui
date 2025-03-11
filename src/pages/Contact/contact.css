@@ -1,0 +1,9 @@
+.yorfy__contactUs .yorfy__community {
+    padding-bottom: 4.5rem;
+}
+
+@media screen and (max-width:950px) {
+    .yorfy__contactUs .yorfy__community {
+        padding-bottom: 2.5rem;
+    }
+}
