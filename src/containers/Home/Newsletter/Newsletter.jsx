@@ -2,8 +2,11 @@ import React from "react";
 import "./newsletter.css";
 
 import { Heading, Button, Input } from "../../../components";
+import { useNavigate } from "react-router-dom";
 
 const Newsletter = () => {
+  const Navigate = useNavigate();
+
   return (
     <div className="yorfy__newsletter section__margin">
       <div className="yorfy__newsletter-heading">
@@ -27,6 +30,7 @@ const Newsletter = () => {
           style="primary"
           size="large"
           icon={false}
+          onClick={() => Navigate("/error")}
         />
       </form>
     </div>
