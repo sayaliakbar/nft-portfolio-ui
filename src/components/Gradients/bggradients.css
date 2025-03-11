@@ -1,30 +1,32 @@
 .yorfy__gradient-purple {
     width: 320px;
     height: 320px;
-    top: 192px;
-    left: -40px;
+    top: 60px;
+    left: -110px;
+    z-index: -1;
 }
 
 .yorfy__gradient-blue {
     width: 400px;
     height: 400px;
-    top: 128px;
-    right: -10px;
+    top: 0px;
+    right: -110px;
+    z-index: -1;
 }
 
 @media screen and (max-width:950px) {
     .yorfy__gradient-purple {
         width: 240px;
         height: 240px;
-        top: 152px;
-        left: -108px;
+        top: 45px;
+        left: -145px;
     }
 
     .yorfy__gradient-blue {
         width: 320px;
         height: 320px;
-        top: 104px;
-        left: 532px;
+        top: 0;
+        left: 490px;
     }
 }
 
@@ -32,14 +34,14 @@
     .yorfy__gradient-purple {
         width: 160px;
         height: 160px;
-        top: 240px;
-        left: -60px;
+        top: 150px;
+        left: -70px;
     }
 
     .yorfy__gradient-blue {
         width: 240px;
         height: 240px;
-        top: 88px;
-        left: 180px;
+        top: 0;
+        left: 160px;
     }
 }
