@@ -1,8 +1,11 @@
 import React from "react";
 import "./collection.css";
 import { Heading, Button, NFTCard } from "../index.js";
+import { useNavigate } from "react-router-dom";
 
 const Collection = ({ nftCollectionData, heading, button = false }) => {
+  const Navigate = useNavigate();
+
   return (
     <div className="yorfy__collection section__margin">
       <div className="yorfy__collection__heading">
@@ -30,7 +33,7 @@ const Collection = ({ nftCollectionData, heading, button = false }) => {
           size="large"
           text="View on OpenSea"
           disabled={false}
-          onClick={() => console.log("clicked")}
+          onClick={() => Navigate("/error")}
         />
       )}
     </div>
