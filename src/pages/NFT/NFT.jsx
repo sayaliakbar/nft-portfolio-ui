@@ -1,7 +1,8 @@
 import React from "react";
 
 import "./nft.css";
-import { Heading, Collection, Header } from "../../components/index.js";
+
+import { Collection, Header } from "../../components/index.js";
 
 import { Benefits, Timeline } from "../../containers/NFT/index.js";
 
