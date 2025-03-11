@@ -1,0 +1,73 @@
+.yorfy__contact-contactForm {
+    margin: 2.5rem 16rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: var(--text-white);
+}
+
+.yorfy__contact-contactForm__name,
+.yorfy__contact-contactForm__email {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
+
+.yorfy__contact-contactForm__name>div,
+.yorfy__contact-contactForm__email>div {
+    flex: 1;
+    min-width: 0;
+
+}
+
+/* Adding social media layout */
+.yorfy__contactUs-socialMedia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.yorfy__contactUs-socialMedia>div {
+    flex-basis: calc(50% - 0.5rem);
+    /* margin-bottom: 1rem; */
+}
+
+.yorfy__contact-contactForm>:nth-last-child(1) input {
+    height: 120px;
+}
+
+.yorfy__contact-contactForm button {
+    width: fit-content;
+    align-self: center;
+}
+
+@media screen and (max-width:950px) {
+    .yorfy__contact-contactForm {
+        margin: 1.5rem 2.5rem;
+    }
+
+    .yorfy__nft-pointcard__text-content h5 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__contact-contactForm {
+        margin: 1rem 1rem;
+        flex-shrink: 1;
+    }
+
+    .yorfy__contact-contactForm__name,
+    .yorfy__contact-contactForm__email {
+        flex-direction: column;
+    }
+
+    /* Make social media icons stack vertically */
+    .yorfy__contactUs-socialMedia>div {
+        flex-basis: 100%;
+    }
+
+}
