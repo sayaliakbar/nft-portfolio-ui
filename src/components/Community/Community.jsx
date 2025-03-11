@@ -2,10 +2,30 @@ import React from "react";
 
 import "./community.css";
 import { Heading, Button, UserCard } from "../index.js";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+import logo from "../../assets/logo.svg";
 
 const Community = () => {
   const Navigate = useNavigate();
+
+  const userData = [
+    {
+      imageSource: logo,
+      title: "ShooPharDhie",
+      body: "Last Online 2 Hour Ago",
+    },
+    {
+      imageSource: logo,
+      title: "ShooPharDhie",
+      body: "Last Online 2 Hour Ago",
+    },
+    {
+      imageSource: logo,
+      title: "ShooPharDhie",
+      body: "Last Online 2 Hour Ago",
+    },
+  ];
 
   return (
     <div className="yorfy__community section__padding">
@@ -24,9 +44,15 @@ const Community = () => {
         />
       </div>
       <div className="yorfy__community-userCards">
-        <UserCard />
-        <UserCard />
-        <UserCard />
+        {userData &&
+          userData.map((item, index) => (
+            <UserCard
+              key={index}
+              imageSource={item.imageSource}
+              title={item.title}
+              body={item.body}
+            />
+          ))}
       </div>
     </div>
   );
