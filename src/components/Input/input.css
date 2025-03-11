@@ -1,27 +1,33 @@
-.yorfy__input {
+.yorfy__inputContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.yorfy__inputContainer-input {
     background: none;
     color: #fff;
 }
 
-.yorfy__label-large {
+.yorfy__inputContainer-input-label-large {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 }
 
-.yorfy__label-medium {
+.yorfy__inputContainer-input-label-medium {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 }
 
-.yorfy__label-small {
+.yorfy__inputContainer-input-label-small {
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
 }
 
-.yorfy__input-large {
+.yorfy__inputContainer-input-large {
     padding-top: 8px;
     padding-right: 16px;
     padding-bottom: 8px;
@@ -34,7 +40,7 @@
     line-height: 32px;
 }
 
-.yorfy__input-medium {
+.yorfy__inputContainer-input-medium {
     padding-top: 8px;
     padding-right: 16px;
     padding-bottom: 8px;
@@ -47,7 +53,7 @@
     line-height: 24px;
 }
 
-.yorfy__input-small {
+.yorfy__inputContainer-input-small {
     padding-top: 4px;
     padding-right: 16px;
     padding-bottom: 4px;
