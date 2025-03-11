@@ -1,0 +1,12 @@
+.yorfy__errorPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1rem;
+}
+
+
+
+.yorfy__errorPage button {
+    width: fit-content;
+}
