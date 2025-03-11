@@ -1,0 +1,17 @@
+.yorfy__hero {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.yorfy__hero .yorfy__heading {
+    padding: 0 11rem;
+
+}
+
+
+@media screen and (max-width:950px) {
+    .yorfy__hero .yorfy__heading {
+        padding: 0;
+    }
+}
