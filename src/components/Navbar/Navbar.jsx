@@ -2,17 +2,18 @@ import React from "react";
 
 import "./navbar.css";
 import logo from "../../assets/logo.svg";
-import arrowDropDown from "../../assets/icons/arrow_drop_down.svg";
+import arrowDropDownActive from "../../assets/icons/arrow_drop_down_active.svg";
 import menu from "../../assets/icons/menu.svg";
 import Button from "../Button/Button.jsx";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
+  const navigate = useNavigate();
 
   const navLinks = [
-    { to: "/", text: "Home", hasDropdown: true },
+    { to: "/", text: "Home" },
     { to: "/nft", text: "NFT" },
     { to: "/roadmap", text: "Roadmap" },
     { to: "/aboutus", text: "About Us" },
@@ -27,7 +28,13 @@ const Navbar = () => {
       }`}
     >
       <a href={to}>{text}</a>
-      {hasDropdown && <img src={arrowDropDown} alt="Arrow dropdown" />}
+      {hasDropdown && (
+        <img
+          className="yorfy__navbar-links_container-dropDownIcon"
+          src={arrowDropDownActive}
+          alt="Arrow dropdown"
+        />
+      )}
     </p>
   );
 
@@ -41,8 +48,8 @@ const Navbar = () => {
           </a>
         </div>
         <div className="yorfy__navbar-links_container">
-          {navLinks.map((link) => (
-            <NavLink key={link.to} {...link} />
+          {navLinks.map((link, index) => (
+            <NavLink key={index} {...link} />
           ))}
         </div>
       </div>
@@ -53,7 +60,7 @@ const Navbar = () => {
           style="primary"
           disabled={false}
           size="medium"
-          onClick={() => console.log("clicked")}
+          onClick={() => navigate("/error")}
         />
       </div>
     </div>
