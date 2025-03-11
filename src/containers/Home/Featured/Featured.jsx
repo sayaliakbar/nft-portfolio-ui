@@ -5,7 +5,10 @@ import { Heading, Button } from "../../../components/index.js";
 import logo from "../../../assets/logo.svg";
 import sixfaces02 from "../../../assets/images/sixfaces02.png";
 
+import { useNavigate } from "react-router-dom";
+
 const Featured = () => {
+  const navigate = useNavigate();
   return (
     <div className="yorfy__home__featured section__padding">
       <div className="yorfy__home__featured-heading">
@@ -34,10 +37,10 @@ const Featured = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <Button
-            text="But on OpenSea"
+            text="Buy on OpenSea"
             style="primary"
             size="large"
-            onClick={() => console.log("clicked")}
+            onClick={() => navigate("error")}
             disabled={false}
           />
         </div>
