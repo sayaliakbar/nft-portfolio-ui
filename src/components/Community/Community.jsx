@@ -2,7 +2,11 @@ import React from "react";
 
 import "./community.css";
 import { Heading, Button, UserCard } from "../index.js";
+import { Navigate, useNavigate } from "react-router-dom";
+
 const Community = () => {
+  const Navigate = useNavigate();
+
   return (
     <div className="yorfy__community section__padding">
       <div className="yorfy__community-heading">
@@ -15,9 +19,7 @@ const Community = () => {
           text="Join Our Discord"
           style="primary"
           size="large"
-          onClick={() => {
-            console.log("clicked");
-          }}
+          onClick={() => Navigate("/error")}
           disabled={false}
         />
       </div>
