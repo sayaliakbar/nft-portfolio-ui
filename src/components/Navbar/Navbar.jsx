@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 import "./navbar.css";
 import logo from "../../assets/logo.svg";
@@ -12,29 +13,23 @@ const Navbar = () => {
   const currentPath = location.pathname;
   const navigate = useNavigate();
 
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   const navLinks = [
     { to: "/", text: "Home" },
     { to: "/nft", text: "NFT" },
     { to: "/roadmap", text: "Roadmap" },
     { to: "/aboutus", text: "About Us" },
     { to: "/contactus", text: "Contact Us" },
-    { to: "/pages", text: "Pages", hasDropdown: true },
   ];
 
-  const NavLink = ({ to, text, hasDropdown }) => (
+  const NavLink = ({ to, text }) => (
     <p
       className={`paragraph-caption ${
         currentPath === to ? "link-medium link-bold" : ""
       }`}
     >
       <a href={to}>{text}</a>
-      {hasDropdown && (
-        <img
-          className="yorfy__navbar-links_container-dropDownIcon"
-          src={arrowDropDownActive}
-          alt="Arrow dropdown"
-        />
-      )}
     </p>
   );
 
@@ -54,7 +49,11 @@ const Navbar = () => {
         </div>
       </div>
       <div className="yorfy__navbar-button">
-        <img src={menu} alt="Menu" />
+        <img
+          src={menu}
+          alt="Menu"
+          onClick={() => setToggleMenu((prev) => !prev)}
+        />
         <Button
           text="Join Us"
           style="primary"
@@ -63,6 +62,21 @@ const Navbar = () => {
           onClick={() => navigate("/error")}
         />
       </div>
+      {toggleMenu && (
+        <div className="yorfy__navbar-menu">
+          <div className="yorfy__navbar-menu_container">
+            <div className="yorfy__navbar-menu_container-links">
+              {navLinks.map((link, index) => (
+                <NavLink key={index} {...link} />
+              ))}
+              <div className="yorfy__navbar-menu_container-links-sign">
+                <p>Sign in</p>
+                <button type="button">Sign up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
