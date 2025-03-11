@@ -10,6 +10,8 @@ import Collection from "./Collection/Collection.jsx";
 import PointCard from "./PointCard/PointCard.jsx";
 import BgGradients from "./Gradients/BgGradients.jsx";
 import ImageCard from "./ImageCard/ImageCard.jsx";
+import Header from "./Header/Header.jsx";
+import Community from "./Community/Community.jsx";
 
 export {
   Button,
@@ -24,4 +26,6 @@ export {
   PointCard,
   BgGradients,
   ImageCard,
+  Header,
+  Community,
 };
