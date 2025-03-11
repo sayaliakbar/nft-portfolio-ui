@@ -57,17 +57,18 @@
 @media screen and (max-width:550px) {
     .yorfy__contact-contactForm {
         margin: 1rem 1rem;
-        flex-shrink: 1;
+        gap: 1rem;
     }
 
-    .yorfy__contact-contactForm__name,
-    .yorfy__contact-contactForm__email {
-        flex-direction: column;
+    .yorfy__contact-contactForm button {
+        width: 100%;
     }
 
-    /* Make social media icons stack vertically */
+    .yorfy__contact-contactForm>.yorfy__inputContainer:nth-last-of-type(1) input {
+        min-height: 120px;
+    }
+
     .yorfy__contactUs-socialMedia>div {
         flex-basis: 100%;
     }
-
 }
