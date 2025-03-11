@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { About, Contact, Home, NFT, Roadmap } from "../pages";
+import { About, Contact, Home, NFT, Roadmap, ErrorPage } from "../pages";
+
 import MainLayout from "../layouts/MainLayout.jsx";
 
 const AppRoutes = () => {
@@ -13,6 +14,7 @@ const AppRoutes = () => {
           <Route path="/roadmap" element={<Roadmap />} />
           <Route path="/aboutus" element={<About />} />
           <Route path="/contactus" element={<Contact />} />
+          <Route path="/error" element={<ErrorPage />} />
         </Routes>
       </MainLayout>
     </Router>
