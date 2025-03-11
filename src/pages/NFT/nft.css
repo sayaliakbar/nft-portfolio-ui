@@ -5,7 +5,7 @@
 }
 
 
-.yorfy__nft .yorfy__heading {
+.yorfy__nft .yorfy__collection .yorfy__heading {
     padding: 2.5rem 16rem;
 
 }
@@ -26,7 +26,7 @@
 
 @media screen and (max-width:950px) {
 
-    .yorfy__nft .yorfy__heading {
+    .yorfy__nft .yorfy__collection .yorfy__heading {
         padding: 2.5rem 2rem;
     }
 
@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 550px) {
 
-    .yorfy__nft .yorfy__heading {
+    .yorfy__nft .yorfy__collection .yorfy__heading {
         padding: 1.5rem 1rem;
     }
 
