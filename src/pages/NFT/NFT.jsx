@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./nft.css";
-import { Heading, Collection, BgGradients } from "../../components/index.js";
+import { Heading, Collection, Header } from "../../components/index.js";
 
 import { Benefits, Timeline } from "../../containers/NFT/index.js";
 
@@ -42,9 +42,8 @@ const nftCollectionHeading = {
 const NFT = () => {
   return (
     <>
-      <BgGradients />
       <div className="yorfy__nft">
-        <Heading
+        <Header
           title="Our Collection"
           heading="NFT"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
