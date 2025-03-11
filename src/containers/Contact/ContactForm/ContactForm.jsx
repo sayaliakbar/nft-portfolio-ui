@@ -2,8 +2,10 @@ import React from "react";
 
 import "./contactform.css";
 import { Input, Button } from "../../../components/index.js";
+import { useNavigate } from "react-router-dom";
 
 const ContactForm = () => {
+  const Navigate = useNavigate();
   return (
     <form className="yorfy__contact-contactForm">
       <div className="yorfy__contact-contactForm__name">
@@ -22,7 +24,7 @@ const ContactForm = () => {
         size="large"
         onClick={(e) => {
           e.preventDefault();
-          console.log("clicked");
+          Navigate("/error");
         }}
       />
     </form>
