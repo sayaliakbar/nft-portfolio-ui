@@ -1,6 +1,10 @@
 .yorfy__aboutUs {
     text-align: center;
+}
+
+.yorfy__aboutUs-container {
     position: relative;
+    z-index: 1;
 }
 
 .yorfy__aboutUs>.yorfy__heading:first-child {
@@ -40,6 +44,8 @@
 .yorfy__aboutUs .yorfy__collection .yorfy__collection__content .yorfy__nftcard img {
     max-width: 310px;
 }
+
+
 
 @media screen and (max-width:950px) {
     .yorfy__aboutUs>.yorfy__heading:first-child {
