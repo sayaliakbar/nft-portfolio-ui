@@ -10,16 +10,6 @@ Yorfy NFT Portfolio UI is a modern, responsive front-end implementation of an NF
 
 [View Live Demo](https://nftportfoliobysayaliakbar.netlify.app)
 
-## 📸 Screenshots
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/5867e49d-c336-4be8-9229-05fcfee94546" alt="Home Page" width="800"/>
-  <p><i>Home Page</i></p>
-  
-  <img src="https://github.com/user-attachments/assets/5867e49d-c336-4be8-9229-05fcfee94546" alt="NFT Collection" width="800"/>
-  <p><i>NFT Collection</i></p>
-</div>
-
 ## ✨ Features
 
 - **Responsive Design**: Optimized for desktop (1280px), tablet (744px), and mobile (360px) viewports
@@ -148,8 +138,9 @@ The design system uses consistent colors and typography:
 
 ## 👏 Acknowledgments
 
-- Design inspiration based on a Figma template for NFT portfolio websites
-- Thanks to the creators of the original design for their beautiful work
+- Design based on [YORFY - NFT Portfolio Website UI Kit](https://www.figma.com/design/2nZgUiruP4TBzKAxCXn6Cb/YORFY---NFT-Portfolio-Website-UI-Kit?node-id=0-1&p=f&t=awr5ZtPCm3Snu3Yq-0) created by Streal Studio
+- This project is a faithful front-end implementation of the above Figma design
+- Thanks to Streal Studio for their beautiful and comprehensive design work
 - This project is purely front-end and doesn't interact with any actual blockchain or NFT data
 
 ## 👤 Author
