@@ -132,6 +132,7 @@
 
     .yorfy__home-header-rightcolumn__image {
         position: relative;
+        width: fit-content;
     }
 
     .yorfy__home-header-rightcolumn__image img {
