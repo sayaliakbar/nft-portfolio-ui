@@ -167,6 +167,7 @@
 }
 
 @media screen and (min-width: 700px) and (max-width: 815px) {
+
     .yorfy__home-header>.yorfy__home-header-leftcolumn .yorfy__heading h1 {
         font-size: 36px;
         line-height: 64px;
@@ -175,4 +176,18 @@
     .yorfy__home-header {
         flex-direction: row;
     }
+
+    .yorfy__home-header-leftcolumn__milestones h3 {
+        font-size: 36px;
+        line-height: 46px;
+
+    }
+
+    .yorfy__home-header-leftcolumn__milestones p {
+        font-size: 14px;
+        line-height: 32px;
+
+    }
+
+
 }
