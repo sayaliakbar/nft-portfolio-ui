@@ -129,7 +129,12 @@
         flex: 1 1 100%;
         flex-wrap: wrap;
         gap: 1.5rem;
-        justify-content: start;
+        justify-content: center;
+    }
+
+    .yorfy__aboutUs-hero__milestones {
+        justify-content: space-between;
+        margin-right: 0;
     }
 
 }
