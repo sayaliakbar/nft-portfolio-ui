@@ -32,8 +32,7 @@
     background: var(--primary-dark-blue);
     opacity: 0.7;
     position: absolute;
-    right: -30px;
-    top: 120px;
+    transform: translate(8%, 35%);
     box-shadow: 0px 24px 80px 0px #000000CC;
 }
 
@@ -65,7 +64,10 @@
     }
 
     .yorfy__community-userCards>*:nth-child(2) {
-        right: 120px;
+        position: absolute;
+        top: 190%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .yorfy__community-userCards>*:nth-child(3) {
@@ -94,6 +96,7 @@
     .yorfy__community-userCards>*:nth-child(2) {
         position: static;
         width: 100%;
+        transform: translate(0%, 0%);
     }
 
     .yorfy__community-userCards>*:nth-child(3) {
