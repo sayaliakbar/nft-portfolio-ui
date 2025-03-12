@@ -1,6 +1,6 @@
 .yorfy__aboutUs-hero {
     display: flex;
-    margin: 6.5rem 0 0 0;
+    margin: 6.5rem 0;
     align-items: start;
     justify-content: space-between;
     gap: 7rem;
@@ -51,7 +51,7 @@
     gap: 4rem;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:910px) {
     .yorfy__aboutUs-hero {
         gap: 0;
         margin: 2.5rem 0;
@@ -91,6 +91,7 @@
         flex: 1 1;
         margin-bottom: 2rem;
     }
+
 
 }
 
