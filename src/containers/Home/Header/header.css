@@ -4,6 +4,7 @@
     display: flex;
     margin-bottom: 4.5rem;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 
@@ -60,8 +61,19 @@
     padding: 2.25rem;
 }
 
+@media screen and (max-width:1160px) {
+    .yorfy__home-header>.yorfy__home-header-leftcolumn .yorfy__heading h1 {
+        font-size: 48px;
+        line-height: 64px;
+    }
 
-@media screen and (max-width:850px) {
+    .yorfy__home-header-leftcolumn__milestones {
+
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width:1020px) {
 
     .yorfy__home-header {
         margin-bottom: 2.5rem;
@@ -132,7 +144,7 @@
 
     .yorfy__home-header-rightcolumn__image {
         position: relative;
-        width: fit-content;
+
     }
 
     .yorfy__home-header-rightcolumn__image img {
@@ -153,3 +165,13 @@
 
 
 }
+
+@media screen and (min-width: 700px) and (max-width: 815px) {
+    .yorfy__home-header>.yorfy__home-header-leftcolumn .yorfy__heading h1 {
+        font-size: 36px;
+        line-height: 64px;
+    }
+
+    .yorfy__home-header {
+        flex-direction: row;
+    }
