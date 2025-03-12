@@ -6,6 +6,8 @@
 
 Yorfy NFT Portfolio UI is a modern, responsive front-end implementation of an NFT collection showcase website. This project is built using React and pure CSS, following a design-first approach based on a Figma mockup. The UI focuses on providing a seamless experience for users interested in exploring NFT collections, roadmaps, and community features.
 
+> **Note:** All interactive buttons in this UI redirect to an error page since this is a frontend-only implementation without backend functionality.
+
 ## 🔗 Live Demo
 
 [View Live Demo](https://nftportfoliobysayaliakbar.netlify.app)
@@ -148,7 +150,7 @@ The design system uses consistent colors and typography:
 **Ali Akbar**
 
 - GitHub: [@sayaliakbar](https://github.com/sayaliakbar)
-- LinkedIn: [Ali Akbar](https://linkedin.com/in/sayaliakbar)
+- LinkedIn: [sayaliakbar](https://linkedin.com/in/sayaliakbar)
 - Instagram: [@ialiakbarhazara](https://instagram.com/ialiakbarhazara)
 
 ## 📄 License
