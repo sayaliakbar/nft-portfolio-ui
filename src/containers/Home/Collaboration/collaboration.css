@@ -13,8 +13,10 @@
 
 .yorfy__collaboration-brands {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width:950px) {
