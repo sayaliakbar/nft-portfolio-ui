@@ -54,6 +54,21 @@ const Navbar = () => {
           alt="Menu"
           onClick={() => setToggleMenu((prev) => !prev)}
         />
+        {toggleMenu && (
+          <div className="yorfy__navbar-menu">
+            <div className="yorfy__navbar-menu_container">
+              <div className="yorfy__navbar-menu_container-links">
+                {navLinks.map((link, index) => (
+                  <NavLink key={index} {...link} />
+                ))}
+                <div className="yorfy__navbar-menu_container-links-sign">
+                  <p>Sign in</p>
+                  <button type="button">Sign up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
         <Button
           text="Join Us"
           style="primary"
@@ -62,21 +77,6 @@ const Navbar = () => {
           onClick={() => navigate("/error")}
         />
       </div>
-      {toggleMenu && (
-        <div className="yorfy__navbar-menu">
-          <div className="yorfy__navbar-menu_container">
-            <div className="yorfy__navbar-menu_container-links">
-              {navLinks.map((link, index) => (
-                <NavLink key={index} {...link} />
-              ))}
-              <div className="yorfy__navbar-menu_container-links-sign">
-                <p>Sign in</p>
-                <button type="button">Sign up</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
