@@ -1,5 +1,1 @@
-@import "./styles/base.css";
-@import "./styles/colors.css";
-@import "./styles/typography.css";
-@import "./styles/components.css";
-@import "./styles/layout.css";
+/* Custom styles that weren't in the imported files can stay here */
