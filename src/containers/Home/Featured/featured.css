@@ -30,8 +30,9 @@
 }
 
 
+
 .yorfy__home__featured-container__image img {
-    flex: 1;
+    width: 100%;
     box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.8);
 
 }
