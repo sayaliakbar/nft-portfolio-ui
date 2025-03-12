@@ -25,10 +25,6 @@
 @media screen and (max-width:950px) {
     .yorfy__nftcard {
         padding: 1rem;
-        flex: 0;
-    }
-
-    .yorfy__nftcard {
         gap: 1.5rem;
     }
 
@@ -45,5 +41,15 @@
     .yorfy__nftcard div img {
         width: 2rem;
         height: 2rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .yorfy__nftcard img {
+        width: 100%;
+    }
+
+    .yorfy__nftcard {
+        width: 100%;
     }
 }
